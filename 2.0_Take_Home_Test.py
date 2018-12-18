@@ -1,19 +1,17 @@
 '''
 HONOR CODE: I solemnly promise that while taking this test I will only use PyCharm or the Internet,
-but I will definitely not ask another person except the instructor. Signed: ______________________
+but I will definitely not ask another person except the instructor. Signed: ____Darius___
 
 1.) How do you enter a single line comment in a program?
-
-
+Using the #
 
 
 2.) What do the following lines of code output? ALSO: Why do they give a different answer?
-2 / 3
-2 // 3
-3/2
-3//2
+2 / 3  =0.6666666666666666
 
-
+2 // 3 =0 #because it floors the numbers after the decimal
+3/2  =1.5
+3//2 =1   #because it floors the numbers after the decimal
 
 
 
@@ -21,9 +19,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
 A = 22
 b = 13
 c = a+b
-
-
-
+c=35 #because the variables were assigned numbers
 
 
 
