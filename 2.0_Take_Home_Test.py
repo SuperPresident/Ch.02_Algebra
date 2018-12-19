@@ -29,7 +29,7 @@ A
 Area
 AREA
 area
-area_of_rectangle
+area_of_rectangle #this is the best one because its consistent lowercase and easier to read
 Area_Of_Rectangle
 
 
@@ -43,10 +43,10 @@ apple
 Apple
 APPLE
 Apple2
-1Apple
-account number
+1Apple #has to start with letter or underscore
+account number #needs underscore
 account_number
-account.number
+account.number #needs underscore instead of period
 accountNumber
 account#
 pi
@@ -56,11 +56,11 @@ Fred
 GreatBigVariable
 greatBigVariable
 great_big_variable
-great.big.variable
-2x
+great.big.variable #needs underscores instead of period
+2x #has to start with letter or underscore
 x2x
-total%
-#left
+total% #cant be a variable because the percentage sign
+#left #hashtag makes it a comment
 
 
 
@@ -75,7 +75,8 @@ a+=12
 a-=7
 a
 type(a)
-
+#output of a is 15
+#type is float number is 15.0
 
 
 
@@ -88,17 +89,20 @@ x = 3.14
 pi = x
 area = pi  * radius ** 2
 area
+#area= 314.0
 
-
-
-
+radius=10
+radius**=2
+pi=3.14
+area=radius*pi
+area
 
 
 8.) What is the ouput of each of these?
-type(42)
-type(42.0)
-type("C3PO")
-type(True)
+type(42) #int
+type(42.0) #float
+type("C3PO") #string
+type(True) #bool
 
 
 
@@ -109,17 +113,16 @@ type(True)
 9.) Fix the mistake in the following code:
 x = 4
 y = 5
-a = 3(x + y)
+a = 3*(x + y)
 a
-
-
+a=3*(3+y)
 
 
 
 
 10.)Why does this code not calculate the average?
 x,y,z =(3,4,5)
-ave = x+y+z/3
+ave = (x+y+z)/3
 ave
 
 
