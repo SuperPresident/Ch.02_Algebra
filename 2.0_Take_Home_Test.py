@@ -19,7 +19,7 @@ INCORRECT! Try this code. It won't work! why?
 A = 22
 b = 13
 c = a+b
-c=35 #because the variables were assigned numbers
+ error #because little a wasnt defined
 
 
 
