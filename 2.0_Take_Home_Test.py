@@ -14,7 +14,7 @@ Using the #
 3//2 =1   #because it floors the numbers after the decimal
 
 
-
+INCORRECT! Try this code. It won't work! why?
 3.) What happens when you try this and why?
 A = 22
 b = 13
